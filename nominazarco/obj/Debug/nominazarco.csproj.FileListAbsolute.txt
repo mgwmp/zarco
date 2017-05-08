@@ -1,0 +1,38 @@
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\bin\Debug\nominazarco.exe.config
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\bin\Debug\nominazarco.exe
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\bin\Debug\nominazarco.pdb
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.csproj.GenerateResource.Cache
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.exe
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.pdb
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.Datos_Generales.resources
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.Asistencia.resources
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.Salarios.resources
+d:\documents\visual studio 2012\Projects\nominazarco\nominazarco\obj\Debug\nominazarco.Menu.resources
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\bin\Debug\nominazarco.exe.config
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.exe
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.pdb
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\bin\Debug\nominazarco.exe
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\bin\Debug\nominazarco.pdb
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.Properties.Resources.resources
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.csproj.GenerateResource.Cache
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.MenuNomina.resources
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.Altas.resources
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.Bajas.resources
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.Editar.resources
+C:\Users\Miguel\Documents\Escuela\Octavo semestre\Des. de Soft. Enf. Neg\Floreria\nominazarco\nominazarco\obj\Debug\nominazarco.Nomina.resources
+D:\Desktop\nominazarco\nominazarco\bin\Debug\nominazarco.exe.config
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.exe
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.pdb
+D:\Desktop\nominazarco\nominazarco\bin\Debug\nominazarco.exe
+D:\Desktop\nominazarco\nominazarco\bin\Debug\nominazarco.pdb
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.csprojResolveAssemblyReference.cache
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Altas.resources
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Bajas.resources
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Editar.resources
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.MenuNomina.resources
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Nomina.resources
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Properties.Resources.resources
+D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.csproj.GenerateResource.Cache
