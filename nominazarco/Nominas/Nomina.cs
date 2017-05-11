@@ -9,6 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using System.Diagnostics;
+using PdfSharp;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
 
 namespace nominazarco
 {
@@ -177,6 +181,9 @@ namespace nominazarco
                         cmd.CommandType = CommandType.Text;
                         cmd.ExecuteScalar();
                         MessageBox.Show("Nomina registrada con exito.\n Procesando PDF...");
+
+                        printPDF();
+
                         this.Close();
                     }
                 }
@@ -187,8 +194,21 @@ namespace nominazarco
                 }
             }
         }
+
+        private void printPDF()
+        {
+            PdfDocument pdf = new PdfDocument();
+            pdf.Info.Title = "My First PDF";
+            PdfPage pdfPage = pdf.AddPage();
+            XGraphics graph = XGraphics.FromPdfPage(pdfPage);
+            XFont font = new XFont("Arial", 12, XFontStyle.Regular);
+            String pdfText = txt_Nombre.Text + "\n Sueldo: \n" + txt_Sueldo.Text + "\n Fecha: \n" + date_Fecha.Text;
+            graph.DrawString("Nómina de trabajador: \n" + pdfText, font, XBrushes.Black, new XRect(0, 0, pdfPage.Width.Point, pdfPage.Height.Point), XStringFormats.TopLeft);
+            string pdfFilename = "nomina.pdf";
+            pdf.Save(pdfFilename);
+            Process.Start(pdfFilename);
+        }
     }
-    
 }
 /*
 SELECT

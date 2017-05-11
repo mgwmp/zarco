@@ -11,7 +11,6 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 using nominazarco.Bonos;
 using nominazarco.Nominas;
-using System.Windows;
 
 namespace nominazarco
 {

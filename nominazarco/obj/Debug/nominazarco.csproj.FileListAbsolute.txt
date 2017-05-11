@@ -87,3 +87,48 @@ D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.MenuNomina.resources
 D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Nomina.resources
 D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.Properties.Resources.resources
 D:\Desktop\nominazarco\nominazarco\obj\Debug\nominazarco.csproj.GenerateResource.Cache
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\nominazarco.exe.config
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.exe
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.pdb
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.csprojResolveAssemblyReference.cache
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Asitencia.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Bonos.Alta_Adelanto.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Bonos.Pagar_Adelanto.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Bonos.Eliminar_Bono.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Bonos.Registrar_Bono.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Nominas.Bajas_Consultas_Nomina.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Alta_puesto.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Baja_puesto.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Consulta_puestos.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Edita_BuscaPuesto.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Altas.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Bajas.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Editar.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.MenuNomina.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Nomina.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.Properties.Resources.resources
+D:\Desktop\nominazarco - copia\nominazarco\obj\Debug\nominazarco.csproj.GenerateResource.Cache
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\nominazarco.exe
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\nominazarco.pdb
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.DocumentObjectModel-WPF.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.Rendering-WPF.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.RtfRendering-WPF.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\PdfSharp-WPF.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\PdfSharp.Charting-WPF.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.DocumentObjectModel-WPF.pdb
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.DocumentObjectModel-WPF.xml
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.Rendering-WPF.pdb
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.Rendering-WPF.xml
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.RtfRendering-WPF.pdb
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\MigraDoc.RtfRendering-WPF.xml
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\PdfSharp-WPF.pdb
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\PdfSharp-WPF.xml
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\PdfSharp.Charting-WPF.pdb
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\PdfSharp.Charting-WPF.xml
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\de\MigraDoc.DocumentObjectModel-WPF.resources.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\de\MigraDoc.Rendering-WPF.resources.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\de\MigraDoc.RtfRendering-WPF.resources.dll
+D:\Desktop\nominazarco - copia\nominazarco\bin\Debug\de\PdfSharp-WPF.resources.dll
+D:\Desktop\nominazarco ok\nominazarco\bin\Debug\nominazarco.exe.config
+D:\Desktop\nominazarco ok\nominazarco\obj\Debug\nominazarco.exe
+D:\Desktop\nominazarco ok\nominazarco\obj\Debug\nominazarco.pdb
