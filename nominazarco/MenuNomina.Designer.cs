@@ -54,8 +54,17 @@
             this.actualizarConsultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asistenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nóminaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrarNominaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarYBajasDeNominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adelantosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrarAdelantoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pagarAdelantoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bonoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarBonoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.exportarAPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -188,6 +197,7 @@
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.DarkOrchid;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Admin,
             this.inicio,
@@ -196,7 +206,7 @@
             this.nóminaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(604, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(604, 28);
             this.menuStrip1.TabIndex = 87;
             this.menuStrip1.Text = "menu_nomina";
             // 
@@ -210,7 +220,7 @@
             this.Admin.ForeColor = System.Drawing.Color.White;
             this.Admin.Image = global::nominazarco.Properties.Resources.Usuario;
             this.Admin.Name = "Admin";
-            this.Admin.Size = new System.Drawing.Size(101, 21);
+            this.Admin.Size = new System.Drawing.Size(105, 24);
             this.Admin.Text = "Empleados";
             // 
             // Altas
@@ -244,7 +254,7 @@
             this.inicio.ForeColor = System.Drawing.Color.White;
             this.inicio.Image = global::nominazarco.Properties.Resources.Cerrarses;
             this.inicio.Name = "inicio";
-            this.inicio.Size = new System.Drawing.Size(61, 21);
+            this.inicio.Size = new System.Drawing.Size(65, 24);
             this.inicio.Text = "Salir";
             this.inicio.Click += new System.EventHandler(this.inicio_Click);
             // 
@@ -258,7 +268,7 @@
             this.puestoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.puestoToolStripMenuItem.Image = global::nominazarco.Properties.Resources.Adminaso;
             this.puestoToolStripMenuItem.Name = "puestoToolStripMenuItem";
-            this.puestoToolStripMenuItem.Size = new System.Drawing.Size(76, 21);
+            this.puestoToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
             this.puestoToolStripMenuItem.Text = "Puesto";
             // 
             // agregarPuestoToolStripMenuItem
@@ -267,6 +277,7 @@
             this.agregarPuestoToolStripMenuItem.Name = "agregarPuestoToolStripMenuItem";
             this.agregarPuestoToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.agregarPuestoToolStripMenuItem.Text = "Agregar puesto";
+            this.agregarPuestoToolStripMenuItem.Click += new System.EventHandler(this.agregarPuestoToolStripMenuItem_Click);
             // 
             // eliminarPuestoToolStripMenuItem
             // 
@@ -274,6 +285,7 @@
             this.eliminarPuestoToolStripMenuItem.Name = "eliminarPuestoToolStripMenuItem";
             this.eliminarPuestoToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.eliminarPuestoToolStripMenuItem.Text = "Eliminar puesto";
+            this.eliminarPuestoToolStripMenuItem.Click += new System.EventHandler(this.eliminarPuestoToolStripMenuItem_Click);
             // 
             // actualizarConsultarToolStripMenuItem
             // 
@@ -281,6 +293,7 @@
             this.actualizarConsultarToolStripMenuItem.Name = "actualizarConsultarToolStripMenuItem";
             this.actualizarConsultarToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.actualizarConsultarToolStripMenuItem.Text = "Actualizar / Consultar";
+            this.actualizarConsultarToolStripMenuItem.Click += new System.EventHandler(this.actualizarConsultarToolStripMenuItem_Click);
             // 
             // asistenciasToolStripMenuItem
             // 
@@ -288,18 +301,92 @@
             this.asistenciasToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.asistenciasToolStripMenuItem.Image = global::nominazarco.Properties.Resources.Regentrada;
             this.asistenciasToolStripMenuItem.Name = "asistenciasToolStripMenuItem";
-            this.asistenciasToolStripMenuItem.Size = new System.Drawing.Size(102, 21);
+            this.asistenciasToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
             this.asistenciasToolStripMenuItem.Text = "Asistencias";
+            this.asistenciasToolStripMenuItem.Click += new System.EventHandler(this.asistenciasToolStripMenuItem_Click);
             // 
             // nóminaToolStripMenuItem
             // 
+            this.nóminaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registrarNominaToolStripMenuItem,
+            this.consultarYBajasDeNominasToolStripMenuItem,
+            this.adelantosToolStripMenuItem1,
+            this.bonoToolStripMenuItem1,
+            this.exportarAPDFToolStripMenuItem});
             this.nóminaToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nóminaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.nóminaToolStripMenuItem.Image = global::nominazarco.Properties.Resources.Pago;
             this.nóminaToolStripMenuItem.Name = "nóminaToolStripMenuItem";
-            this.nóminaToolStripMenuItem.Size = new System.Drawing.Size(82, 21);
+            this.nóminaToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.nóminaToolStripMenuItem.Text = "Nómina";
             this.nóminaToolStripMenuItem.Click += new System.EventHandler(this.nóminaToolStripMenuItem_Click);
+            // 
+            // registrarNominaToolStripMenuItem
+            // 
+            this.registrarNominaToolStripMenuItem.Image = global::nominazarco.Properties.Resources.Altas;
+            this.registrarNominaToolStripMenuItem.Name = "registrarNominaToolStripMenuItem";
+            this.registrarNominaToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
+            this.registrarNominaToolStripMenuItem.Text = "Registrar Nomina";
+            this.registrarNominaToolStripMenuItem.Click += new System.EventHandler(this.registrarNominaToolStripMenuItem_Click);
+            // 
+            // consultarYBajasDeNominasToolStripMenuItem
+            // 
+            this.consultarYBajasDeNominasToolStripMenuItem.Image = global::nominazarco.Properties.Resources.Bajas;
+            this.consultarYBajasDeNominasToolStripMenuItem.Name = "consultarYBajasDeNominasToolStripMenuItem";
+            this.consultarYBajasDeNominasToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
+            this.consultarYBajasDeNominasToolStripMenuItem.Text = "Consultar y Bajas de nominas";
+            this.consultarYBajasDeNominasToolStripMenuItem.Click += new System.EventHandler(this.consultarYBajasDeNominasToolStripMenuItem_Click);
+            // 
+            // adelantosToolStripMenuItem1
+            // 
+            this.adelantosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registrarAdelantoToolStripMenuItem1,
+            this.pagarAdelantoToolStripMenuItem1});
+            this.adelantosToolStripMenuItem1.Name = "adelantosToolStripMenuItem1";
+            this.adelantosToolStripMenuItem1.Size = new System.Drawing.Size(250, 26);
+            this.adelantosToolStripMenuItem1.Text = "Adelantos";
+            // 
+            // registrarAdelantoToolStripMenuItem1
+            // 
+            this.registrarAdelantoToolStripMenuItem1.Image = global::nominazarco.Properties.Resources.Altas;
+            this.registrarAdelantoToolStripMenuItem1.Name = "registrarAdelantoToolStripMenuItem1";
+            this.registrarAdelantoToolStripMenuItem1.Size = new System.Drawing.Size(187, 22);
+            this.registrarAdelantoToolStripMenuItem1.Text = "Registrar Adelanto";
+            this.registrarAdelantoToolStripMenuItem1.Click += new System.EventHandler(this.registrarAdelantoToolStripMenuItem1_Click);
+            // 
+            // pagarAdelantoToolStripMenuItem1
+            // 
+            this.pagarAdelantoToolStripMenuItem1.Image = global::nominazarco.Properties.Resources.Pago;
+            this.pagarAdelantoToolStripMenuItem1.Name = "pagarAdelantoToolStripMenuItem1";
+            this.pagarAdelantoToolStripMenuItem1.Size = new System.Drawing.Size(187, 22);
+            this.pagarAdelantoToolStripMenuItem1.Text = "Pagar Adelanto";
+            this.pagarAdelantoToolStripMenuItem1.Click += new System.EventHandler(this.pagarAdelantoToolStripMenuItem1_Click);
+            // 
+            // bonoToolStripMenuItem1
+            // 
+            this.bonoToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.eliminarBonoToolStripMenuItem1});
+            this.bonoToolStripMenuItem1.Image = global::nominazarco.Properties.Resources.Pago;
+            this.bonoToolStripMenuItem1.Name = "bonoToolStripMenuItem1";
+            this.bonoToolStripMenuItem1.Size = new System.Drawing.Size(250, 26);
+            this.bonoToolStripMenuItem1.Text = "Bono";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Image = global::nominazarco.Properties.Resources.Altas;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(161, 22);
+            this.toolStripMenuItem2.Text = "Registrar Bono";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // eliminarBonoToolStripMenuItem1
+            // 
+            this.eliminarBonoToolStripMenuItem1.Image = global::nominazarco.Properties.Resources.Bajas;
+            this.eliminarBonoToolStripMenuItem1.Name = "eliminarBonoToolStripMenuItem1";
+            this.eliminarBonoToolStripMenuItem1.Size = new System.Drawing.Size(161, 22);
+            this.eliminarBonoToolStripMenuItem1.Text = "Eliminar Bono";
+            this.eliminarBonoToolStripMenuItem1.Click += new System.EventHandler(this.eliminarBonoToolStripMenuItem1_Click);
             // 
             // pictureBox1
             // 
@@ -319,6 +406,13 @@
             this.pictureBox6.Size = new System.Drawing.Size(289, 291);
             this.pictureBox6.TabIndex = 84;
             this.pictureBox6.TabStop = false;
+            // 
+            // exportarAPDFToolStripMenuItem
+            // 
+            this.exportarAPDFToolStripMenuItem.Name = "exportarAPDFToolStripMenuItem";
+            this.exportarAPDFToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
+            this.exportarAPDFToolStripMenuItem.Text = "Exportar a PDF";
+            /*this.exportarAPDFToolStripMenuItem.Click += new System.EventHandler(this.exportarAPDFToolStripMenuItem_Click);*/
             // 
             // MenuNomina
             // 
@@ -383,5 +477,17 @@
         private System.Windows.Forms.ToolStripMenuItem agregarPuestoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarPuestoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actualizarConsultarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bonosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registrarBonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pagarBonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registrarNominaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarYBajasDeNominasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adelantosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem registrarAdelantoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem pagarAdelantoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem bonoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem eliminarBonoToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem exportarAPDFToolStripMenuItem;
     }
 }

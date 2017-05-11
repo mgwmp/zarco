@@ -14,12 +14,11 @@ namespace nominazarco
         SqlConnection cn;
         SqlCommand cmd;
 
-        
-
         public Conexion()
         {
             try
             {
+                //TODO CAMBIAR DATA SOURCE
                 cn = new SqlConnection("Data Source=ZARCOSERVER\\SQLSERVER;Initial Catalog=floreria;Persist Security Info=True;User ID=sa;Password=sasa");
                 cn.Open();
             }
@@ -110,6 +109,57 @@ namespace nominazarco
                 cmd.ExecuteNonQuery();
 
                // cmd = new SqlCommand("UPDATE puesto set nombre_puesto = ('" + nompuesto + "'), salario = ('" + salario + "'), horario = ('" + horario + "') where id_empleado = " + idempleado + "", cn);
+                //cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                mensaje = "No se actualizaron los datos correctamente, acuda a un administrador, información: \n\n" + ex.ToString();
+            }
+            return mensaje;
+        }
+
+        public string Altas_puesto(int idpuesto, string nombre, double salario, string horario)
+        {
+            string mensaje = "Datos registrados correctamente";
+            try
+            {
+                cmd = new SqlCommand("Insert into puesto(id_puesto, nombre_puesto, salario, horario) values (" + idpuesto + ", '" + nombre + "', " + salario + ", '" + horario + "')", cn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                mensaje = "No se registraron los datos correctamente, acuda a un administrador, información: \n\n" + ex.ToString();
+            }
+            return mensaje;
+        }
+
+        public string Bajas_puesto(int idpuesto)
+        {
+            string mensaje = "Puesto eliminado correctamente";
+            try
+            {
+                cmd = new SqlCommand("delete from puesto where id_puesto = " + idpuesto + "", cn);
+                cmd.ExecuteNonQuery();
+
+                //cmd = new SqlCommand("delete from nomina where id_empleado = " + idempleado + "", cn);
+                //cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                mensaje = "No se elimino el empleado correctamente, acuda a un administrador, información: \n\n" + ex.ToString();
+            }
+            return mensaje;
+        }
+
+        public string Actualizar_puesto(int idpuesto, string nombre, double salario, string horario)
+        {
+            string mensaje = "Datos actualizados correctamente";
+            try
+            {
+                cmd = new SqlCommand("UPDATE puesto set nombre_puesto = ('" + nombre + "'), salario = " + salario + ", horario = '" + horario + "' where id_puesto = " + idpuesto + " ", cn);
+                cmd.ExecuteNonQuery();
+
+                // cmd = new SqlCommand("UPDATE puesto set nombre_puesto = ('" + nompuesto + "'), salario = ('" + salario + "'), horario = ('" + horario + "') where id_empleado = " + idempleado + "", cn);
                 //cmd.ExecuteNonQuery();
             }
             catch (Exception ex)

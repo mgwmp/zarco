@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using nominazarco.Bonos;
+using nominazarco.Nominas;
+using System.Windows;
 
 namespace nominazarco
 {
@@ -24,8 +27,8 @@ namespace nominazarco
             InitializeComponent();
             txt_Nombre.Enabled = false;
             Reloj.Enabled = true;
-
-            cn = new SqlConnection("Data Source=.;Initial Catalog=floreria;Integrated Security=True");
+            //TODO CAMBIAR DATA SOURCE
+            cn = new SqlConnection("Data Source=ZARCOSERVER\\SQLSERVER;Initial Catalog=floreria;Persist Security Info=True;User ID=sa;Password=sasa");
             cn.Open();
         }
 
@@ -97,8 +100,7 @@ namespace nominazarco
 
         private void nóminaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Nomina frm = new Nomina();
-            frm.Show();
+            
         }
 
         private void Altas_Click(object sender, EventArgs e)
@@ -118,5 +120,70 @@ namespace nominazarco
             Editar frm = new Editar();
             frm.Show();
         }
+
+        private void agregarPuestoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Alta_puesto apst = new Alta_puesto();
+            apst.Show();
+        }
+
+        private void eliminarPuestoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Baja_puesto bpst = new Baja_puesto();
+            bpst.Show();
+        }
+
+        private void actualizarConsultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Edita_BuscaPuesto epst = new Edita_BuscaPuesto();
+            epst.Show();
+        }
+
+        private void asistenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Asitencia asist = new Asitencia();
+            asist.Show();
+        }
+        private void consultarYBajasDeNominasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bajas_Consultas_Nomina frmConsultasNomina = new Bajas_Consultas_Nomina();
+            frmConsultasNomina.Show();
+        }
+
+        private void registrarNominaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nomina frm = new Nomina();
+            frm.Show();
+        }
+
+        private void registrarAdelantoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Alta_Adelanto frmrgstraradelanto = new Alta_Adelanto();
+            frmrgstraradelanto.Show();
+        }
+
+        private void pagarAdelantoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Pagar_Adelanto frmpagradelanto = new Pagar_Adelanto();
+            frmpagradelanto.Show();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Registrar_Bono frmrgstrarbono = new Registrar_Bono();
+            frmrgstrarbono.Show();
+        }
+
+        private void eliminarBonoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Eliminar_Bono frmelimniarbono = new Eliminar_Bono();
+            frmelimniarbono.Show();
+        }
+
+       /* private void exportarAPDFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExportarPdf exportarPdf = new ExportarPdf();
+            exportarPdf.Show();
+        }*/
     }
 }

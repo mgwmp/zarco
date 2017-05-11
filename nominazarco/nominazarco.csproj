@@ -69,28 +69,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Altas.cs">
+    <Compile Include="Asitencia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Altas.Designer.cs">
+    <Compile Include="Asitencia.Designer.cs">
+      <DependentUpon>Asitencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adelantos\Alta_Adelanto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adelantos\Alta_Adelanto.Designer.cs">
+      <DependentUpon>Alta_Adelanto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adelantos\Pagar_Adelanto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adelantos\Pagar_Adelanto.Designer.cs">
+      <DependentUpon>Pagar_Adelanto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bonos\Eliminar_Bono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bonos\Eliminar_Bono.Designer.cs">
+      <DependentUpon>Eliminar_Bono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bonos\Registrar_Bono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bonos\Registrar_Bono.Designer.cs">
+      <DependentUpon>Registrar_Bono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nominas\Bajas_Consultas_Nomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nominas\Bajas_Consultas_Nomina.Designer.cs">
+      <DependentUpon>Bajas_Consultas_Nomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nominas\ExportarNominaPdf.cs" />
+    <Compile Include="Puesto\Alta_puesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Puesto\Alta_puesto.Designer.cs">
+      <DependentUpon>Alta_puesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Puesto\Baja_puesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Puesto\Baja_puesto.Designer.cs">
+      <DependentUpon>Baja_puesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Puesto\Consulta_puestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Puesto\Consulta_puestos.Designer.cs">
+      <DependentUpon>Consulta_puestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Puesto\Edita_BuscaPuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Puesto\Edita_BuscaPuesto.Designer.cs">
+      <DependentUpon>Edita_BuscaPuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Altas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Altas.Designer.cs">
       <DependentUpon>Altas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bajas.cs">
+    <Compile Include="Empleados\Bajas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bajas.Designer.cs">
+    <Compile Include="Empleados\Bajas.Designer.cs">
       <DependentUpon>Bajas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Editar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Editar.Designer.cs">
-      <DependentUpon>Editar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="floreriaDataSet1.Designer.cs">
+    <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>floreriaDataSet1.xsd</DependentUpon>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Editar.Designer.cs">
+      <DependentUpon>Editar.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuNomina.cs">
       <SubType>Form</SubType>
@@ -99,33 +160,58 @@
       <DependentUpon>MenuNomina.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion.cs" />
-    <Compile Include="floreriaDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>floreriaDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Nomina.cs">
+    <Compile Include="Nominas\Nomina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nomina.Designer.cs">
+    <Compile Include="Nominas\Nomina.Designer.cs">
       <DependentUpon>Nomina.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validacion.cs" />
-    <EmbeddedResource Include="Altas.resx">
+    <EmbeddedResource Include="Asitencia.resx">
+      <DependentUpon>Asitencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adelantos\Alta_Adelanto.resx">
+      <DependentUpon>Alta_Adelanto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adelantos\Pagar_Adelanto.resx">
+      <DependentUpon>Pagar_Adelanto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bonos\Eliminar_Bono.resx">
+      <DependentUpon>Eliminar_Bono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bonos\Registrar_Bono.resx">
+      <DependentUpon>Registrar_Bono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nominas\Bajas_Consultas_Nomina.resx">
+      <DependentUpon>Bajas_Consultas_Nomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Puesto\Alta_puesto.resx">
+      <DependentUpon>Alta_puesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Puesto\Baja_puesto.resx">
+      <DependentUpon>Baja_puesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Puesto\Consulta_puestos.resx">
+      <DependentUpon>Consulta_puestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Puesto\Edita_BuscaPuesto.resx">
+      <DependentUpon>Edita_BuscaPuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Altas.resx">
       <DependentUpon>Altas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bajas.resx">
+    <EmbeddedResource Include="Empleados\Bajas.resx">
       <DependentUpon>Bajas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Editar.resx">
+    <EmbeddedResource Include="Empleados\Editar.resx">
       <DependentUpon>Editar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuNomina.resx">
       <DependentUpon>MenuNomina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nomina.resx">
+    <EmbeddedResource Include="Nominas\Nomina.resx">
       <DependentUpon>Nomina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -138,27 +224,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="floreriaDataSet.xsc">
-      <DependentUpon>floreriaDataSet.xsd</DependentUpon>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="floreriaDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>floreriaDataSet.Designer.cs</LastGenOutput>
+    <None Include="DataSet1.xsd">
       <SubType>Designer</SubType>
-    </None>
-    <None Include="floreriaDataSet.xss">
-      <DependentUpon>floreriaDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="floreriaDataSet1.xsc">
-      <DependentUpon>floreriaDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="floreriaDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>floreriaDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
     </None>
-    <None Include="floreriaDataSet1.xss">
-      <DependentUpon>floreriaDataSet1.xsd</DependentUpon>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -235,6 +310,7 @@
   <ItemGroup>
     <None Include="Resources\zarco_logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
